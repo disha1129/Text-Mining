@@ -44,5 +44,7 @@ Library for stop words is:- from nltk.corpus import stopwords
 Stemming:- Means mapping a group of words to the same stem by removing prefixes or suffixes without giving any value to th "grammatical meaning" of the stem formed after the processs.
 Libray:- from nltk.stem import porterstemmer,lancasterstemmer, snowballstemmer.
 
-Lemmatization:- also does the same things as stemming and to bring a word to its base form, but unlike stemming it do keep in account the actual meaning of the base word i.e the base words belongs to any
+Lemmatization:- also does the same things as stemming and to bring a word to its base form, but unlike stemming it do keep in account the actual meaning of the base word i.e the base words belongs to any specify language. The 'base words' is know as 'Lemma'.
+Library:- from nltk.stem import WordNet Lemmatizer.
+
 
